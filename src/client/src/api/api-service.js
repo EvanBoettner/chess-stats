@@ -44,6 +44,15 @@ class ChessAPI {
     }
     return games.flatMap((game) => game);
   }
+  async getArchivesByMonth(year, month) {
+    let config = {
+      method: "get",
+      maxBodyLength: Infinity,
+      url: this.url + `/games/${year}/${month}`,
+    };
+    let games = await axios.request(config);
+    return games.data;
+  }
 }
 
 export default ChessAPI;

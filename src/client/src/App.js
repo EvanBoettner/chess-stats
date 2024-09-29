@@ -13,6 +13,8 @@ function App() {
       console.log("Stats: ", stats);
       let games = await chessAPI.getAllArchives();
       console.log("Games: ", games);
+      let this_months_games = await chessAPI.getArchivesByMonth('2024', '09');
+      console.log('Games This Month: ', this_months_games);
     };
     load();
   }, []);
