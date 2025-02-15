@@ -1,0 +1,38 @@
+.r-card {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.r-icon {
+  font-size: 30px;
+}
+
+.Blitz {
+  color: #f9b234;
+}
+
+.Bullet {
+    color: #CD7F32;
+}
+
+.Rapid {
+    color: #e3cba5;
+}
+
+.Tactics {
+    color: #d5a47d;
+}
+
+.Up {
+  color: green;
+}
+
+.Down {
+  color: red;
+}
+
+.difference {
+    font-size: 20px;
+}

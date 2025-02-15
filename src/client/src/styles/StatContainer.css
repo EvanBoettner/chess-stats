@@ -1,0 +1,11 @@
+.stat-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 50%;
+  max-width: 800px;
+  min-width: 375px;
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: hsla(0, 0%, 100%, 0.85);
+  display: flex;
+}
